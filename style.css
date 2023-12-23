@@ -83,21 +83,23 @@ body {
             width: 90%;
         }
     }
-footer {
+.footer {
     text-align: center;
     padding: 10px;
-    background-color: #3498db; 
-    color: #fff; 
-    margin-top: auto;
+    background-color: rgba(52, 152, 219, 0.9); 
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-footer a {
+.footer a {
     color: #fff; 
-    text-decoration: none;
-    font-weight: bold;
+    text-decoration: none; 
+    font-weight: bold; 
 }
 
-footer a:hover {
+.footer a:hover {
     text-decoration: underline; 
 }
     
